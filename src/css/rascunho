@@ -1,0 +1,84 @@
+rascunho
+
+/*
+.novidades-row {
+	height: auto;
+}*/
+
+#img-principal {
+	width: 97.8%;
+    height: 24.1em;
+    /*position: absolute;*/
+}
+
+
+.img-novidades {
+	width: 49%;
+	float: left;
+	/*position: relative;*/
+}
+/*
+#novidades button {
+	padding: 1em 2em;
+	width: 49%;
+	color: #fff;
+	text-align: center;
+	font-size: 1.1em;
+	font-weight: 600;
+	font-family: OpenSans-Bold;
+	font-style: italic;
+	line-height: 1.1em;
+	letter-spacing: .1rem;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	white-space: nowrap;
+	background-color: transparent ;
+	border: 1.5px solid #0378af;
+	cursor: pointer;
+	box-sizing: border-box;
+	
+}
+
+#btn-1{
+
+	width: 50.1%;
+	position: absolute;
+	margin-left: -526px;
+	margin-top: 310px;
+	background: url(../img/bg-btn.png);
+	background-position: bottom left 12%;
+}	
+
+#btn-2{
+
+	background: url(../img/bg-btn-1.png);
+	background-position: bottom;
+}	
+
+#btn-3{
+
+	background: url(../img/bg-btn-3.png);
+	background-position: bottom;
+}	
+
+#btn-4{
+
+	background: url(../img/bg-btn-2.png);
+	background-position: bottom;
+}	
+
+#btn-5{
+
+	background: url(../img/bg-btn-4.png);
+	background-position: bottom;
+}	
+
+#btn-2,#btn-3,
+#btn-4,#btn-5,{
+
+	width: 0;
+	position: absolute;
+	margin-left: -500px;
+	
+}*/

@@ -1,0 +1,455 @@
+@charset "UTF-8";
+
+/*----------- Geral -----------*/
+
+html, body {
+	margin: 0;
+/*	height:100%; */
+}
+
+/* Fontes */
+
+@font-face{
+	font-family: OpenSans;
+	src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+@font-face{
+	font-family: OpenSans-Bold;
+	src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+@font-face{
+	font-family: OpenSans-ExtraBold;
+	src: url(../fonts/OpenSans-ExtraBold.ttf);
+}
+
+@font-face{
+	font-family: Quantify;
+	src: url(../fonts/Quantify.ttf);
+}
+
+
+body {
+	background: url(../img/jpg/bg-ground.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #FFF;
+	text-transform: uppercase;
+}
+
+/* Navegador */
+header {
+	width: 100%;
+	height: auto;
+}
+
+nav a {
+	color: #fff;
+	padding: 0.92em 2em;
+}
+
+nav a:hover {
+	color: #000;
+	background: #fff;
+}
+
+nav ul {
+	text-align: right;
+	margin: 3% 0;
+}
+
+
+#logo {
+	width: 100%;
+}
+
+#menu li {
+	margin: 1.5em 0;	
+	font-family: Quantify;
+	text-transform: uppercase;
+	font-size: 1.2em;
+
+}
+
+/* Banner */
+
+.banner img{
+	margin: 0 auto;
+}
+
+#banner {
+
+	width: 100%;
+	height: ;
+	margin: 0 auto;
+}
+
+
+.banner:before, .banner:after {
+	content: "";
+	display: block;
+	width: 100%;
+	height: 10px;
+	background: #fff;
+	margin-top: -3px;
+	
+}
+
+.titulo {
+	font-family: OpenSans-Bold;
+	font-style: italic;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 20px 0;
+}
+
+.titulo-azul {
+	color: #0378af;
+}
+
+.titulo:after {
+	content: "";
+	display: block;
+	width: 100%;
+	height: 2px;
+	margin-top: 0px;
+}
+
+.titulo-branco:after {
+	background-color: #fff;
+}
+
+.titulo-azul:after {
+	background-color: #0378af;
+}
+
+section {
+	padding-top: 30px;
+	background: #000;
+
+}
+
+/* Menu secundário */
+
+div#menu-secundario {
+	background: #000;
+	height: auto;
+	text-align: center;
+}
+
+div#menu-secundario img {
+	float: left;
+	width: 10%;
+	margin-left: 10%;
+	justify-content: center;
+	align-items: center;
+}
+
+div#menu-secundario .botao{
+	display: inline-block;
+	width: 20%;
+	height: 20px;
+	text-align: center;
+	padding: 20px;
+	margin: 0 -3px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+div.botao h2 {
+	font-family: OpenSans-Bold;
+	font-style: italic;
+	font-weight: bold;
+	white-space: normal;
+}
+
+#menu-secundario a{
+	text-decoration: none;
+	color: #fff;
+}
+
+#botao-1 {
+	background: url(../img/png/bg-botao-1.png);
+	background-position: center;
+	background-size: cover;;
+}
+
+#botao-2 {
+	background: url(../img/png/bg-botao-2-2.png);
+	background-position: center;
+	background-size: cover;
+	color: #000;
+}
+
+#botao-3 {
+	background: url(../img/png/bg-botao-3.png);
+	background-position: center;
+	background-size: cover;
+}
+
+/* Novidades */
+
+.card-novidade {
+	width: 100%;
+	height: 315px;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+div.card-novidade figure {	
+	width: 24%;
+    height: 100%;
+    position: relative;
+    margin: 0 3px;
+	display: inline-block;	
+}
+
+div.card-novidade figure img {	
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	border-radius: 5px;
+	
+}
+
+div.card-novidade figure h4 {
+	position: absolute;
+	top: 70%;
+	left: 5%;
+	font-family: OpenSans-Bold;
+	font-weight: bold;
+}
+
+div.card-novidade figure figcaption {
+	position: absolute;
+	top: 80%;
+	left: 5%;
+	right: 5%;
+	font-family: OpenSans-Bold;
+	font-weight: 200;
+	font-size: 0.8em;
+	
+	
+}
+
+div.card-novidade #primeira-imagem-novidade img{
+	object-position: 75% ;
+}
+
+div.card-novidade #segunda-imagem-novidade img{
+	object-position: center;
+}
+
+div.card-novidade #terceira-imagem-novidade img{
+	object-position: right;
+}
+
+div.card-novidade #quarta-imagem-novidade img{
+	object-position: center;
+}
+
+/* Notícias */
+
+#noticias {
+	/*width: 100%;*/
+	margin: 0 auto;
+}
+
+div.anuncio-noticias {
+	border: 2px solid #ccc;
+	margin: 0 auto;
+	padding: 3em;
+	
+
+}
+
+div.anuncio-noticias h2{
+	font-size: 2em;
+	font-weight: bold;
+	font-style: italic;
+	text-align: center;
+
+}
+
+h2.parte2 {
+	margin-top: 1em;
+}
+
+/* Ranking */
+
+div#table {
+	width: 100%;
+	height: 210px;
+	overflow: auto;
+	border: 2px solid #ccc;
+}
+
+table.ranking {
+	
+	text-transform: uppercase;
+	float: left;
+	width: 100%;
+}
+
+tbody {
+	overflow: auto;
+}
+
+thead#rank-player th{
+	background: url(../img/jpg/bg-rank-player.jpg);
+
+}
+
+thead#rank-cla th{
+	background: url(../img/jpg/bg-rank-clan.jpg);
+}
+
+table.ranking td,
+table.ranking th  {
+	width: 50%;
+	padding: 0.5em 2em;
+}
+
+h3#rank-clas {
+	text-align: right;
+	color: #0378af;
+	font-family: OpenSans-ExtraBold;
+}
+
+h3#rank-player {
+	color: #626262;
+	font-family: OpenSans-ExtraBold;
+}
+
+td.td-2,
+th.td-2 {
+	text-align: right;
+}
+
+/* Loja */
+
+div.itemshop {
+	width: 100%;
+	height: 18em;
+	background: url(../img/jpg/loja-bground.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center right 10%;
+
+}
+
+div.itemshop h1 {
+	padding: 1.5em 1.5em;
+	font-style: italic;
+	font-family: OpenSans-ExtraBold;
+	font-size: 4em;
+
+}
+
+/* Comunidade */
+
+div.comunidade {
+	width: 100%;
+	height: 18em;
+	background: url(../img/jpg/bg-comunidade.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center right 10%;
+
+}
+
+div.comunidade h3,
+div.comunidade h2 {
+	right: 0;
+	position: absolute;
+	padding: 0 3%;
+	font-style: italic;
+	font-weight: bold;
+}
+
+div.comunidade h2 {
+	bottom: 1.80em;
+	font-size: 2.5em;
+}
+div.comunidade h3 {
+	bottom: 2em;
+	font-size: 1.60em;
+}
+
+
+/* Redes Sociais */
+
+section#redes-sociais {
+	padding: 30px 0;
+}
+
+div.texto-redes-sociais {
+	float: left;
+	padding: 0 2em;
+	margin: 0px 6% 0 0;
+	font-size: 1.4em;
+
+}
+
+div.redes-sociais {
+	float: left;
+	margin: 16px 0px;
+}
+
+div#texto-e-redes {
+	width: 100%;
+	height: auto;
+	background: url(../img/jpg/footer-social.jpg);
+	background-position: right 10%; 
+	background-size: cover;
+
+}
+
+/* Footer */
+
+section#footer {
+	height: 80px;
+	padding: 0 55px;
+}
+
+div.direitos h5 {
+	font-size: .7em;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+#desenvolvedores {
+	color: #0378af;
+	text-align: right;
+	
+}
+
+div.direitos a:link {
+	color: #0378af;
+}
+
+div.direitos a:hover {
+	color: #0599be;
+}
+
+#aviso h1,
+#aviso h3 {
+	font-size: 2rem;
+	text-align: center;
+	font-style: italic;
+	font-weight: bold;
+}
+
+#aviso h1 {
+	padding: 20% 100px 0 100px;
+
+}
+
+#aviso h3 {
+	padding: 50px 200px;
+}
